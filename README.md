@@ -25,7 +25,7 @@ after every step.
 Therefore, after $t$ steps its position is
 
 $$
-K(t) = (x_0 + at,\; y_0 + bt).
+K(t) = (x_0 + at, y_0 + bt).
 $$
 
 The four integers $x_0$, $y_0$, $a$, and $b$ are unknown.
@@ -71,7 +71,7 @@ At time $t$, we take hypothesis $H_t$ and place the trap where the kangaroo woul
 $$
 T(t) =
 \left(
-x_0^{(t)} + a^{(t)}t,\;
+x_0^{(t)} + a^{(t)}t, 
 y_0^{(t)} + b^{(t)}t
 \right).
 $$
@@ -87,7 +87,7 @@ Because every integer quadruple appears somewhere in the enumeration, such a fin
 At time $m$, the trap is placed at
 
 $$
-T(m) = (x_0 + am,\; y_0 + bm),
+T(m) = (x_0 + am, y_0 + bm),
 $$
 
 which is exactly the kangaroo's real position
@@ -200,9 +200,7 @@ generation work up to radius $R$.
 
 A naive implementation that re-enumerates the entire cube for every radius performs
 
-$$
-\sum_{r=0}^{R}(2r+1)^4
-=
+$$\sum_{r=0}^{R}(2r+1)^4=
 \Theta(R^5)
 $$
 
