@@ -230,10 +230,10 @@ python main.py
 Example input:
 
 ```text
-Initial x-coordinate x0: 1
-Initial y-coordinate y0: -1
-Horizontal step a: 0
-Vertical step b: 1
+Initial x-coordinate x0: 4
+Initial y-coordinate y0: -5
+x-coordinate step: 3
+y-coordinate step: -2
 ```
 
 The exact catching step depends on the order in which hypotheses are enumerated.
